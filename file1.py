@@ -19,3 +19,5 @@ if __name__ == "__main__":
 
     my_object = MyClass(20)
     print(f"Object value: {my_object.get_value()}")
+
+    print("end")
