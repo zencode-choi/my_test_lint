@@ -1,3 +1,7 @@
+# Example file for ruff-check / ruff-format demo.
+# This file intentionally contains simple lint and formatting issues.
+
+
 def calculate_sum(a, b):
     result = a + b
     return result
@@ -14,14 +18,13 @@ class MyClass:
 if __name__ == "__main__":
     x = 5
     y = 10
-
     total = calculate_sum(x, y)
     print("The sum is: " + str(total))
 
     my_object = MyClass(20)
-
     print(f"Object value: {my_object.get_value()}")
 
+    # Long single line strings show how ruff-format wraps long lines.
     print(
         "end-----------------------------------------------------------------------------------------------------------------------"
     )
